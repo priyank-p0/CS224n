@@ -16,6 +16,7 @@ def forward_backward_prop(data, labels, params, dimensions):
     and backward propagation for the gradients for all parameters.
 
     Arguments:
+
     data -- M x Dx matrix, where each row is a training example.
     labels -- M x Dy matrix, where each row is a one-hot vector.
     params -- Model parameters, these are unpacked for you.
